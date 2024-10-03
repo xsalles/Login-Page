@@ -8,15 +8,15 @@ import {
   Search,
   SearchLook,
   Look,
-  Menu
+  Menu,
 } from "./styles";
 import LogoShopSmart from "../../assets/images/logoShopSmart.png";
-import LookImage from "../../assets/images/look.png"
+import LookImage from "../../assets/images/look.png";
 import MenuImage from "../../assets/images/menu.png";
 
 export default function LoginPage() {
   return (
-    <Container>
+    <ContainerHeader>
       <Header>
         <LeftHeaderContainer>
           <Logo src={LogoShopSmart} />
@@ -25,12 +25,12 @@ export default function LoginPage() {
         <RightHeaderContainer>
           <Search>
             <SearchLook>
-                <Look src={LookImage}/>
+              <Look src={LookImage} />
             </SearchLook>
           </Search>
-          <Menu src={MenuImage}/>
+          <Menu src={MenuImage} />
         </RightHeaderContainer>
       </Header>
-    </Container>
+    </ContainerHeader>
   );
 }
