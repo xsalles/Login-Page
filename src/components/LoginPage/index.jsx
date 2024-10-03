@@ -1,16 +1,36 @@
-import { Container, Header, Logo, NameCompany } from "./styles";
-import LogoShopSmart from "../../assets/images/logoShopSmart.png"
+import {
+  Container,
+  Header,
+  LeftHeaderContainer,
+  Logo,
+  NameCompany,
+  RightHeaderContainer,
+  Search,
+  SearchLook,
+  Look,
+  Menu
+} from "./styles";
+import LogoShopSmart from "../../assets/images/logoShopSmart.png";
+import LookImage from "../../assets/images/look.png"
+import MenuImage from "../../assets/images/menu.png";
 
-
-export default function LoginPage (){
-    return (
-        <Container>
-            <Header>
-                <Logo src={LogoShopSmart}/>
-                <NameCompany>
-                    ShopSmart
-                </NameCompany>
-            </Header>
-        </Container>
-    )
+export default function LoginPage() {
+  return (
+    <Container>
+      <Header>
+        <LeftHeaderContainer>
+          <Logo src={LogoShopSmart} />
+          <NameCompany>ShopSmart</NameCompany>
+        </LeftHeaderContainer>
+        <RightHeaderContainer>
+          <Search>
+            <SearchLook>
+                <Look src={LookImage}/>
+            </SearchLook>
+          </Search>
+          <Menu src={MenuImage}/>
+        </RightHeaderContainer>
+      </Header>
+    </Container>
+  );
 }
