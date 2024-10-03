@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-export const ContainerHeader = styled.div`
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-`;
-
 export const Header = styled.header`
   display: flex;
   width: 100vw;

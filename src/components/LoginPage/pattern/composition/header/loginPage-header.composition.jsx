@@ -1,5 +1,5 @@
 import {
-  Container,
+
   Header,
   LeftHeaderContainer,
   Logo,
@@ -10,13 +10,12 @@ import {
   Look,
   Menu,
 } from "./styles";
-import LogoShopSmart from "../../assets/images/logoShopSmart.png";
-import LookImage from "../../assets/images/look.png";
-import MenuImage from "../../assets/images/menu.png";
+import LogoShopSmart from "../../../../../assets/images/logoShopSmart.png"
+import LookImage from "../../../../../assets/images/look.png";
+import MenuImage from "../../../../../assets/images/menu.png";
 
-export default function LoginPage() {
+export default function LoginPageHeader() {
   return (
-    <ContainerHeader>
       <Header>
         <LeftHeaderContainer>
           <Logo src={LogoShopSmart} />
@@ -31,6 +30,5 @@ export default function LoginPage() {
           <Menu src={MenuImage} />
         </RightHeaderContainer>
       </Header>
-    </ContainerHeader>
   );
 }
