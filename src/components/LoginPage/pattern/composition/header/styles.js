@@ -31,10 +31,11 @@ export const NameCompany = styled.h1`
 export const RightHeaderContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-content: right;
   width: 100vw;
   background-color: white;
   gap: 50px;
-  margin-left: 800px;
+  margin-right: 72px;
 `;
 
 export const Search = styled.div`
@@ -43,7 +44,7 @@ export const Search = styled.div`
   border: 1px solid black;
   border-radius: 20px;
   box-sizing: border-box;
-  
+  display: flex;
   position: relative;
 `;
 
@@ -67,7 +68,6 @@ export const Look = styled.img `
 `
 
 export const Menu = styled.img `
-   
    width: 52px;
    height: 52px;
 `
