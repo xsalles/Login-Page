@@ -6,8 +6,13 @@ import {
   BoxLoginInput,
   BoxLoginTitle,
   ContainerContent,
+  CreateAccount,
+  CreateAccountText,
   ForgotPassword,
+  Line,
   LoginButton,
+  QuestionSignUp,
+  TextQuestion,
 } from "./styles";
 import LogoShopSmart from "../../../../../assets/images/logoShopSmart.png";
 
@@ -26,6 +31,16 @@ export default function LoginPageContent() {
         <ForgotPassword>Esqueci a senha</ForgotPassword>
         <LoginButton>Login</LoginButton>
       </BoxLogin>
+      <QuestionSignUp>
+        <Line />
+        <TextQuestion>Novo na ShopSmart?</TextQuestion>
+        <Line />
+      </QuestionSignUp>
+      <CreateAccount>
+        <CreateAccountText>
+          Crie sua conta na ShopSmart
+        </CreateAccountText>
+      </CreateAccount>
     </ContainerContent>
   );
 }

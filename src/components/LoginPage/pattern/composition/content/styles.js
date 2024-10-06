@@ -63,13 +63,52 @@ export const ForgotPassword = styled.a`
   text-decoration: underline;
 `;
 
-export const LoginButton = styled.button `
+export const LoginButton = styled.button`
   width: 216px;
   height: 46px;
-  border: 1px solid #37B6FF;
-  background-color: #37B6FF;
+  border: 1px solid #37b6ff;
+  background-color: #37b6ff;
   color: white;
   font-size: 24px;
   font-weight: 500;
   border-radius: 90px;
-`
+`;
+
+export const QuestionSignUp = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 26px;
+  width: 445px;
+  height: 25px;
+`;
+
+export const Line = styled.div`
+  border-bottom: 1px solid #b7b7b7;
+  width: 112.5px;
+`;
+
+export const TextQuestion = styled.p`
+  width: 198px;
+  font-size: 21;
+  font-weight: 500;
+  color: #434343;
+`;
+
+export const CreateAccount = styled.div`
+  display: flex;
+  width: 462px;
+  height: 69px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 13px;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const CreateAccountText = styled.p`
+  width: 276px;
+  font-weight: 500;
+  font-size: 21px;  
+`;

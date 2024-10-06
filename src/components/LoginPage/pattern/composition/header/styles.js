@@ -71,3 +71,4 @@ export const Menu = styled.img `
    width: 52px;
    height: 52px;
 `
+
